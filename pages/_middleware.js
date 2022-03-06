@@ -8,6 +8,6 @@ export async function middleware(req) {
       secret: process.env.SECRET,
       secureCookie:process.env.NODE_ENV === 'production',
     });
-    if(!session) return NextResponse.redirect("http://localhost:3000/home")
+    if(!session) return NextResponse.redirect(NEXTAUTH_URL + "/home")
   }
 }
