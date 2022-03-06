@@ -92,7 +92,7 @@ const post = useRecoilValue(getPostState)
           variants={gifYouUp}
           initial="hidden"
           animate="visible"
-          exit="exit"
+          exit="exit" 
         >
           <motion.img
             alt=""
