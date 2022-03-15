@@ -20,7 +20,8 @@ const Feed = ({ posts }) => {
       setHandlePost(false)
       setUseSSRPosts(false)
     }
-    fetchPosts()
+    fetchPosts();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [handlePost])
 
   return (

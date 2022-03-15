@@ -2,7 +2,7 @@
 const nextConfig = {
   darkMode:"class",
   images: {
-    domains: ['content.linkedin.com', 'static-exp1.licdn.com', 'www.iconsdb.com', 'images.fastcompany.net']
+    domains: ['content.linkedin.com', 'picsum.photos', 'static-exp1.licdn.com', 'www.iconsdb.com', 'images.fastcompany.net']
   },
 }
 

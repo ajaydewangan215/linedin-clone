@@ -1,6 +1,7 @@
 import { CloseRounded, CommentOutlined, DeleteRounded, MoreHorizRounded, ReplyRounded, ThumbUpOffAltOutlined, ThumbUpOffAltRounded } from "@mui/icons-material";
 import { Avatar, IconButton } from "@mui/material";
 import { useSession } from "next-auth/react";
+// import Image from "next/image";
 import React, { useState } from "react";
 import { useRecoilState } from "recoil";
 import TimeAgo from "timeago-react";
