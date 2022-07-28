@@ -1,4 +1,4 @@
-import { ArrowForwardIosRounded, BusinessCenter, Explore, Group, OndemandVideoSharp } from "@mui/icons-material";
+// import { ArrowForwardIosRounded, BusinessCenter, Explore, Group, OndemandVideoSharp } from "@mui/icons-material";
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
@@ -22,7 +22,7 @@ const home = ({providers}) => {
           />
         </div>
 
-        <div className="flex items-center sm:divide-x divide-gray-300">
+        {/* <div className="flex items-center sm:divide-x divide-gray-300">
           <div className="hidden sm:flex space-x-8 pr-4">
             <HeaderLink Icon={Explore} text="Discover"/>
             <HeaderLink Icon={Group} text="People"/>
@@ -40,10 +40,10 @@ const home = ({providers}) => {
             ))
           }
           
-        </div>
+        </div> */}
       </header>
 
-      <main className="flex flex-col xl:flex-row items-center max-w-screen-lg mx-auto">
+      {/* <main className="flex flex-col xl:flex-row items-center max-w-screen-lg mx-auto">
         <div className="space-y-6 xl:space-y-10">
             <h1 className="text-3xl md:text-5xl text-amber-800/80 max-w-xl !leading-snug pl-4 xl:pl-0">Welcome to your professional community</h1>
             <div className="space-y-4">
@@ -65,7 +65,7 @@ const home = ({providers}) => {
         <div className="relative xl:absolute w-80 h-80 xl:w-[650px] xl:h-[650px] top-14 right-5">
           <Image src="/dxf91zhqd2z6b0bwg85ktm5s4.svg" alt="Banner" layout="fill" priority />
         </div>
-      </main>
+      </main> */}
     </div>
   );
 };
